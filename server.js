@@ -1,38 +1,4 @@
-// const express=require('express');
-// const bodyParser = require('body-parser');
-// const cors=require('cors');
-// const mongoose=require("mongoose");
-// const routes=require("./routes");
-// const app=express();
-// const port =3000;
-// var url = "mongodb://localhost:27017/personal_budget";
-// var budgetModel=require('./models/budgetData');
-// const budget = require("./budget");
-// const router = express.Router();
-// app.use(bodyParser.urlencoded({extended: true}));
-// app.use(bodyParser.json());
-// app.use('',express.static('public'));
-// app.use(cors());
 
-
-// mongoose.connect(url,{useNewUrlParser:true, useUnifiedTopology:true})
-//         .then(()=>{
-//             app.use(express.json())
-//             app.use("/api",routes)
-//         })
-//         .catch((connectionError)=>{
-//           console.log(connectionError)
-//         })
-
-// app.use(cors());
-
-// app.get('/budget', (req,res)=>{
-//     res.json(budget);
-// });
-
-// app.listen(port,()=>{
-//     console.log(` API Served in this http://localhost:${port}`)
-// });
 const express = require('express');
 const bodyParser = require('body-parser');
 const app = express();
