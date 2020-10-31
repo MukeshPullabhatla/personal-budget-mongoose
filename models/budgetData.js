@@ -5,7 +5,7 @@ const BudgetSchema=new mongoose.Schema({
             required:true,
             unique:true
         },
-        cost:{
+        budget:{
             type:Number,
             required:true
         },
